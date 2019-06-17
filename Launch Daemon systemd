@@ -14,3 +14,6 @@ $ sudo systemctl status td-agent.service
 
 Dec 07 15:12:27 ubuntu systemd[1]: Starting td-agent: Fluentd based data collector for Treasure Data...
 Dec 07 15:12:27 ubuntu systemd[1]: Started td-agent: Fluentd based data collector for Treasure Data.
+
+
+we can customize the systemd behaviour, by putting our td-agent.service into /etc/systemd/system
